@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ЛОХ ТЫ</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+    <style>
+      #save-1, #save-2 {
+        font-size: 60px;
+        margin: 40px;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      .hide {
+        display: none;
+      }
+
+      .container {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        overflow: auto;
+      }
+
+      h1 {
+        font-size: 30px;
+        position: absolute;
+        bottom: 25%;
+      }
+      #mbut {
+        max-height: 900px;
+        max-width: 1900px;
+        font-size: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button id="mbut">Big DOT(.)</button>
+      <p><button id="save-1" class="hide">😎</button></p>
+      <p><button id="save-2" class="hide">😎</button></p>
+      <h1 id="sleep" class="hide">Пора спатеньки!</h1>
+    </div>
+  </body>
+</html>
