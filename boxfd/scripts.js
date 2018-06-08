@@ -17,9 +17,19 @@ $(document).ready(function(){
   $('#save-2').click(function(){
 
     if (confirm('НАЖМИ ДА! ИНАЧЕ Я САМ ЗАКРОЮ ОКНО!')) {
-      thisWindow.close();
+      closeTab();
     } else {
-      close();
+      closeTab();
     }
   })
+
+  function CloseTab() {
+    window.close();
+  }
+
+  function Test() {
+    alert('test');
+  }
+
+  test();
 })
