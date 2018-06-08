@@ -30,6 +30,4 @@ $(document).ready(function(){
   function Test() {
     alert('test');
   }
-
-  test();
 })
