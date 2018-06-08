@@ -15,17 +15,12 @@ $(document).ready(function(){
   })
 
   $('#save-2').click(function(){
-
     if (confirm('НАЖМИ ДА! ИНАЧЕ Я САМ ЗАКРОЮ ОКНО!')) {
-      closeTab();
+      alert('Ладно, я не могу. Почему то GitHub не дает закрыть окно через функцию "window.close()", либо это просто я тупой)')
     } else {
-      closeTab();
+      alert('Ладно, я не могу. Почему то GitHub не дает закрыть окно через функцию "window.close()", либо это просто я тупой)')
     }
   })
-
-  function CloseTab() {
-    window.close();
-  }
 
   function Test() {
     alert('test');
