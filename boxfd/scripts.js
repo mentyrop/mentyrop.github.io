@@ -17,7 +17,7 @@ $(document).ready(function(){
   $('#save-2').click(function(){
 
     if (confirm('НАЖМИ ДА! ИНАЧЕ Я САМ ЗАКРОЮ ОКНО!')) {
-      close();
+      thisWindow.close();
     } else {
       close();
     }
