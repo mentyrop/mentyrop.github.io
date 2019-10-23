@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    font-size: 75%;
+}
+body {
+    font: normal 18px arial, helvetica, sans-serif;
+    color: #333;
+    background: #f0f0f0;
+}
+/* выравниваем страницу по центру, делаем отступы и цвет фона */
+#main {
+    width: 1000px;
+    min-height: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+header, nav, section, article, aside, footer {
+    display: block;
+    overflow: hidden;
+}
+
+
+header {
+    border: 2px solid #0f6cea;
+    height: 121px;
+    background-image:url(../img/header.jpg);
+}
+
+
+nav {
+    width: 100%;
+    height: 32px;
+    background: #4195eb;
+}
+
+#main > section {
+    overflow: hidden;
+    parder-right: dotted 1px #C633C6;
+    border-left: dotted 1px #C633C6;
+    background-color: #cadffc;
+}
+
+
+section section {
+    float: right;
+    width: 700px;
+    min-height: 450px;
+    padding: 0px 10px 10px 20px;
+    background-color: #ffffff;
+}
+
+
+aside {
+    width: 200px;
+    float: left;
+    padding: 0px 0px 25px 0px;
+}
+
+footer {
+    height: 40px;
+    clear: both;
+    padding: 10px 30px 0 25px;
+    margin: 0px 0 0 0;
+    border-top: 1px solid #0f6cea;
+}
+
+.asd {
+    border: 2px dotted green;
+    border-width:medium;
+}
+
+/* вложенная секция */
+
+/* правая часть */
+
+/* нижняя часть - footer */
+
+
+/* оформление внутренних элементов */
+
+nav li {
+    float: left;
+    margin: 8px 20px 0;
+    list-style-type: none;
+}
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    padding-left: 15px;
+}
+nav a:hover {
+    background-position: 1px;
+    background-image: url('../img/fon-hover.gif');
+    background-repeat: no-repeat;
+}
+nav a:active {
+    background-position: 1px;
+    background-image: url('../img/fon-active.gif');
+    background-repeat: no-repeat;
+}
+
+
+.image {
+    margin: 10px 0;
+}
+
+
+aside h2, ul {
+    margin-left: 15px;
+}
+.active {
+    background-position: 1px;
+    background-image: url('../img/fon-hover.gif');
+    background-repeat: no-repeat;
+}
+
+a {
+    color: #1e68ce;
+}
+a:hover {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    line-height: 1;
+    margin: 8px 0 12px;
+    color: #185bb6;
+}
+h1 {
+    font-size: 1.88em;
+    padding-left: 20px;
+}
+p {
+    text-align: justify;
+    word-spacing: .1ex;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+aside li {
+    list-style-image: url('../img/marker.png');
+    list-style-position: inside;
+}
+
+aside li:hover {
+   
+    background-color: #fff;
+}
+span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/icon.png');
+    background-repeat: no-repeat;
+}
+.header_text {
+    color:#2c6982;
+    text-align:center;
+    padding-top: 30px;
+    font: bold 36px italic tahoma,verdana;
+}
+
+.class_area{
+    overflow: auto;
+    background-color: yellow;
+    resize: none;
+}
